@@ -1,0 +1,20 @@
+@mixin open($fs,$fw,$col) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: $fs;
+    font-weight: $fw;
+    color: $col;
+}
+@mixin tran($tran) {
+    transition: $tran;
+    -webkit-transition: $tran;
+    -moz-transition: $tran;
+    -ms-transition: $tran;
+    -o-transition: $tran;
+}
+@mixin  b_r($br) {
+     border-radius: $br;
+     -webkit-border-radius: $br;
+     -moz-border-radius: $br;
+     -ms-border-radius: $br;
+     -o-border-radius: $br;
+}

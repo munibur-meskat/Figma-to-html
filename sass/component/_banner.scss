@@ -1,0 +1,77 @@
+#banner{
+    background: url(../images/hill.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+  .b_overly{
+    padding: 200px 0px 150px 0px;
+    background: rgba(0, 0, 0, 0.747);
+    .banner_text{
+        p{
+            @include open(18px,700,#FFC178);
+            text-transform: uppercase;
+        }
+        h1{
+            @include open(96px,700,#fff);
+            line-height: 100px
+        }
+        h2{
+            @include open(88px,400,#fff);
+           line-height: 100px;
+        }
+    }
+  }
+}
+/*About part start*/
+#about_banner{
+  background: url(../images/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  .a_overly{
+    padding: 200px 0px;
+    background: rgba(0, 0, 0, 0.582);
+    .banner_text{
+      p{
+          @include open(18px,700,#FFC178);
+          text-transform: uppercase;
+      }
+      h1{
+          @include open(96px,700,#fff);
+          line-height: 100px
+      }
+      h2{
+          @include open(88px,400,#fff);
+         line-height: 100px;
+      }
+  }
+  }
+}
+/*About part end */
+/*culture part start*/
+#culture_banner{
+  background: url(../images/cul.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  .a_overly{
+    padding: 200px 0px;
+    background: rgba(0, 0, 0, 0.582);
+    .banner_text{
+      p{
+          @include open(18px,700,#FFC178);
+          text-transform: uppercase;
+      }
+      h1{
+          @include open(96px,700,#fff);
+          line-height: 100px
+      }
+      h2{
+          @include open(88px,400,#fff);
+         line-height: 100px;
+      }
+  }
+  }
+}
+/*culture part end */

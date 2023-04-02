@@ -1,0 +1,20 @@
+.navbar{
+    .nav-item{
+        .nav-link{
+            padding-left: 30px;
+            @include open(16px,700,#fff);
+            @include tran(.4s);
+            &:hover{
+                color: #FFC178;
+            }
+        }
+    }
+    .search{
+        a{
+            color: #fff;
+            i{
+                padding-right: 30px;
+            }
+        }
+    }
+}
